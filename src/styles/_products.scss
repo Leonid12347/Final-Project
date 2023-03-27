@@ -1,0 +1,60 @@
+.bg-top1 {
+  background-color: $Primary-Dodger_Blue;
+}
+
+.bg-top2 {
+  background-color: $Secondary-White;
+}
+
+.function {
+
+  &__left1{
+    background-image: url("../img/image/feature1.png");
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    
+    text-align: right;
+  }
+
+  &__left2{
+    background-image: url("../img/image/feature2.png");
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+
+    text-align: right;
+  }
+
+  &__left3{
+    background-image: url("../img/image/feature3.png");
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+
+    text-align: right;
+  }
+
+  &__right1{
+    background-image: url("../img/image/feature4.png");
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+
+    text-align: left;
+  }
+
+  &__right2{
+    background-image: url("../img/image/feature5.png");
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+
+    text-align: left;
+  }
+
+  &__right3 {
+    background-image: url("../img/image/feature6.png");
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+
+    text-align: left;
+  }
+
+
+}

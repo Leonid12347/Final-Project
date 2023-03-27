@@ -1,0 +1,62 @@
+header {
+  background-color: $Gradient-Blue_Gradient;
+  background-image: linear-gradient(5deg, rgba(56, 129, 253, 0.9), rgba(56, 129, 253, 0.8)),
+  url("../img/image/grid.png");
+}
+
+.first {
+  display: flex;
+  
+  &__left {
+    margin-top: $m-6;
+    padding-bottom: $p-2;
+
+    &_title {
+      font-size: $font-70;
+
+      color: $Secondary-White;
+    }
+
+    &_product {
+      display: flex;
+      padding-top: $p-2;
+
+      &-probe {
+        @include transition;
+
+        padding: $p-0-5;
+        margin: $m-1;
+
+        font-weight: 900;
+
+        color: $Secondary-Black;
+
+        border: 1px solid $Primary_Orange;
+        background-color: $Secondary-White;
+        border-radius: 30px;
+
+        &:hover {
+          text-decoration: none;
+
+          color: $Secondary-Black;
+          background-color: $Primary-Orange ;
+        }
+      }
+
+      &-video
+      {
+        margin: auto $m-0-5;
+
+        font-size: $font-28;
+        font-weight: 600;
+
+        color: $Secondary-White;  
+      }
+    }
+
+  }
+
+  &__right {
+    max-width: 50%;
+  }
+}

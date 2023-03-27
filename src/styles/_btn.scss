@@ -1,0 +1,20 @@
+.video-bth {
+  width: 40px;
+  height: 40px;
+
+  margin: $m-1;
+
+  background-color: rgba(255, 255, 255, 0.573);
+
+  border-radius: 100%;
+
+  background-image: url("../img/image/play-input.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  transition: 0.5s ease all;
+
+  &:hover {
+    transform: scale(1.2) rotate(360deg);
+  }
+}

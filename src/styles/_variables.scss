@@ -1,13 +1,14 @@
 $Primary-Royal: hsba(207, 89%, 100%, 1);
 $Primary_Orange: hsba(6, 63%, 99%, 1);
-$Secondary-Black: hsba(240, 15%, 18%, 1);
+$Secondary-Black: rgba(39, 39, 46, 1);
 $Secondary-Paragraph: hsba(240, 5%, 45%, 1);
-$Secondary-White: hsba(0, 0%, 100%, 1);
+$Secondary-White: rgb(250, 250, 250);
+$Secondary-White_Dark: rgb(224, 209, 209);
 $Primary-Yellow: hsba(45, 97%, 100%, 1);
-$Secondary-White_Gray: hsba(230, 2%, 100%, 1);
-$Primary-Dodger_Blue: hsba(218, 78%, 99%, 1);
-$Primary-Orange: hsba(31, 69%, 100%, 1);
-$Gradient-Blue_Gradient: hsba(207, 89%, 100%, 1) hsba(224, 84%, 100%, 1);
+$Secondary-White_Gray: rgba(213, 215, 225, 0.6);
+$Primary-Dodger_Blue: rgba(56, 129, 253, 1);
+$Primary-Orange: rgba(253, 110, 94, 1);
+$Gradient-Blue_Gradient: rgb(16, 122, 209);
 $Secondary-Paragraph_dark: hsba(218, 8%, 41%, 1);
 
 $font: 'Heebo';
@@ -25,6 +26,7 @@ $font-28:28px;
 $font-32:32px;
 $font-36:36px;
 $font-48:48px;
+$font-70:70px;
 $font-80:80px;
 
 //FONT-WEIGHT
@@ -56,4 +58,5 @@ $m-3:3rem;
 $m-4:4rem;
 $m-5:5rem;
 $m-6:6rem;
+$m-8:8rem;
 $m-10:10rem;

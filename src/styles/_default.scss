@@ -1,4 +1,9 @@
 .container {
-  height: 1024px;
-  width: 1024px;
+  max-width: 1260px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  &__first {
+    display: flex;
+  }
 }

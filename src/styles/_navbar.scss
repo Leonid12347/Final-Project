@@ -1,0 +1,41 @@
+.navbar {
+  display: inline-block;
+
+  &-lists {
+    display: flex;
+    justify-content: space-around;
+
+    &__list {
+      margin: $m1-5;
+
+      &:hover {
+        @include transition;
+        transform: scale(1.2);
+      }
+
+      &:active {
+        font-weight: 700;
+      }
+
+      &:focus {
+        outline: none;
+        box-shadow: 0 0 0 3px $Primary-Orange;
+      }
+
+      &_link{
+        @include transition;
+        
+        font-size: $font-20;
+        color: $Secondary-White;
+
+        transform: scale(1.2);
+
+        &:hover {
+          text-decoration: none;
+
+          color: $Primary-Orange;
+        }
+      }
+    }
+  }
+}
