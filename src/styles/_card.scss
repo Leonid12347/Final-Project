@@ -1,0 +1,32 @@
+.card-title {
+  font-size: $font-32;
+  font-weight: 900;
+
+  text-align: center;
+
+  &__price {  
+    color: $Secondary-White_Dark;
+    font-size: $font-14;
+    font-weight: 200;
+  }
+}
+
+.card-team {
+  font-size: $font-20;
+  font-weight: 600;
+
+  padding: $p-1 0;
+}
+
+.primary {
+  margin: $m-2;
+  text-align: center;
+
+  font-size: $font-20 ;
+  font-weight: 500;
+}
+
+.offer {
+  font-size: $font-16;
+  padding: $p-0-5 $p-1;
+}

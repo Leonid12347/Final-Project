@@ -1,10 +1,46 @@
 .bg-top1 {
   background-color: $Primary-Dodger_Blue;
+  background-image: url("../img/image/Digital\ Manager.png");
+  background-repeat: no-repeat;
+  background-position: 1% 15%;;
 }
 
 .bg-top2 {
   background-color: $Secondary-White;
+  background-image: url("../img/image/Bank\ System.png");
+  background-repeat: no-repeat;
+  background-position: 1% 15%;
 }
+
+.bg-top3 {
+  background-color: $Secondary-White;
+  background-image: url("../img/image/Auto\ Reminder.png");
+  background-repeat: no-repeat;
+  background-position: 1% 15%;
+}
+
+.bg-top4 {
+  background-color: $Secondary-White;
+  background-image: url("../img/image/Clean\ Design.png");
+  background-repeat: no-repeat;
+  background-position: 1% 15%;
+}
+
+.bg-top5 {
+  background-color: $Secondary-White;
+  background-image: url("../img/image/Secure\ Data.png");
+  background-repeat: no-repeat;
+  background-position: 1% 15%;
+}
+
+.bg-top6 {
+  background-color: $Secondary-White;
+  background-image: url("../img/image/Easy\ Dashbord.png");
+  background-repeat: no-repeat;
+  background-position: 1% 15%;
+}
+
+
 
 .function {
 
@@ -55,6 +91,4 @@
 
     text-align: left;
   }
-
-
 }

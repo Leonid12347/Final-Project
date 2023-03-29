@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
 
-  margin: $m-1;
+  margin: $m-1 auto;
 }
 
 .section1 {
@@ -11,24 +11,150 @@
   &__title-head {
     text-align: center;
 
-    margin: $m-2;
+    font-size: $font-28;
+    font-weight: 800;
+
     padding: $p-2;
   }
 
+  &__title-price {
+    color: $Primary-Royal;
+
+    font-size: $font-14;
+    font-weight: 300;
+
+    text-align: center;
+    padding-top: $p-6;
+  }
+
   &__lists {
-    max-width: 980px;
+    max-width: 1280px;
 
     margin: 0 auto;
 
     &_list {
       display: inline-block;
 
-      width: 290px;
+      width: 390px;
+      height: 115px;
       margin: $m-1;
 
-      text-align: center;
+      text-align:end;
+      vertical-align: bottom;
 
       border-radius: 5px;
+
+      &-titleWhite {
+        font-size: $font-20;
+        font-weight: 600; 
+
+        color: $Secondary-White;
+
+        text-align: left;
+
+        padding-top: $p-1;
+        padding-left: $p-5;
       }
+
+      &-title {
+        font-size: $font-20;
+        font-weight: 600; 
+
+        text-align: left;
+
+        padding-top: $p-1;
+        padding-left: $p-5;
+      }
+
+      &-info{
+        text-align: left;
+
+        padding-top: $p-1-5;
+        padding-left: $p-5;
+
+        font-size: $font-16;
+        font-weight: 500;
+      }
+
+      &-info1{
+        text-align: left;
+
+        padding-top: $p-1-5;
+        padding-left: $p-5;
+
+        font-size: $font-16;
+        font-weight: 500;
+      }
+    }
+  }
+
+  &__listsFooter {
+    max-width: 950px;
+
+    margin: 0 auto;
+
+    &_list {
+      display: inline-block;
+
+      width: 440px;
+      height: 115px;
+      margin: $m-1;
+
+      background-color: $Secondary-White;
+
+      text-align:end;
+      vertical-align: bottom;
+
+      border-radius: 5px;
+
+      &-titleWhite {
+        font-size: $font-20;
+        font-weight: 600;
+
+        text-align: left;
+        
+        color: $Secondary-White;
+
+        padding-left: $p-1;
+        padding-top: $p-0-5;
+      }
+
+      &-title {
+        font-size: $font-20;
+        font-weight: 600; 
+
+        text-align: left;
+
+        padding-left: $p-1;
+        padding-top: $p-0-5;
+
+      }
+
+      &-info{
+        font-size: $font-14;
+        font-weight: 500;
+
+        text-align: left;
+
+        padding-left: $p-1;
+        padding-top: $p-0-5;
+      }
+
+      &-info1{
+        font-size: $font-14;
+        font-weight: 500;
+
+        text-align: left;
+
+        color: $Secondary-White;
+
+        padding-left: $p-1;
+        padding-top: $p-0-5;
+      }
+    }
+
+    &_list1 {
+      background-color: $Primary-Dodger_Blue;
+    }
   }
 }
