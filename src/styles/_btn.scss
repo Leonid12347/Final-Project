@@ -24,3 +24,38 @@
   margin-top: $m-1;
 }
 
+.input {
+  background-color: $Secondary-Dark;
+}
+
+.btn-sub {
+  padding: $p-0-5 $p-4;
+  margin: $m-1 $m-3;
+
+  background-color: $Primary-Orange;
+  color: $Secondary-White; 
+
+  &:hover {
+    text-decoration: none;
+
+    color: $Secondary-White;
+    transform: scale(1.1);
+  }
+}
+
+.contact__btn {
+  @include transition;
+
+  border: 1px solid $Secondary-Dark;
+  background-color: $Secondary-Dark;
+  border-radius: 4px;
+
+  font-size: $font-18;
+  font-weight: 600;
+  
+  color: $Secondary-Black;
+
+  &:hover {
+    background-color: $Primary-Orange;
+  }
+}

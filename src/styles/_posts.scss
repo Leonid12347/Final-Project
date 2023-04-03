@@ -1,0 +1,18 @@
+.posts {
+  margin-top: $m-1;
+
+  &__link {
+    @include transition;
+        
+    font-size: $font-24;
+    color: $Secondary-White_Dark;
+
+    transform: scale(1.2);
+
+    &:hover {
+    text-decoration: none;
+
+    color: $Primary-Orange;}
+  }
+
+}

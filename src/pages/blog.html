@@ -1,45 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BLog</title>
+  <title>blog</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
 
   <link rel="shortcut icon" href="../img/favicon/Logo.png" type="image/x-icon">
 
-  <link rel="stylesheet" href="/src/styles/main.css">
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
-</head>
-<body>
-  
-  <header>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
+  <link rel="stylesheet" href="../styles/main.css">
+</head>
+
+<body>
+
+  <header class="header" id="header">
+    <navbar class="navbar">
+
+      <div class="logo">
+        <a href="#" class="link">
+          <img src="../img/image/log.png" alt="header_logo" class="logo-icon">
+        </a>
+      </div>
+
+      <ul class="navbar-lists">
+        <li class="navbar-lists__list"><a href="../index.html" class="navbar-lists__list_link">Home</a></li>
+        <li class="navbar-lists__list"><a href="../index.html#Features" class="navbar-lists__list_link">Features</a>
+        </li>
+        <li class="navbar-lists__list"><a href="../index.html#screenshot" class="navbar-lists__list_link">Screenshot</a>
+        </li>
+
+        <li class="navbar-lists__list"><a href="../index.html#price" class="navbar-lists__list_link">Price</a></li>
+        <li class="navbar-lists__list"><a href=".#" class="navbar-lists__list_link">Blog</a></li>
+        <li class="navbar-lists__list"><a href="./contacts.html" class="navbar-lists__list_link">Contact</a></li>
+      </ul>
+    </navbar>
+
+    <section class="navigation">
+      <h1 class="navigation__title">Blog</h1>
+      <p class="navigation__blog"><a href="../index.html" class="navigation__blog_pages ">Home</a> > <a
+          href="./blog.html" class="navigation__blog_pages ">Blog</a></p>
+    </section>
   </header>
 
   <main>
+    <section class="d-flex justify-content-evenly container">
+      <div class="form5">
+        <div class="footer__column">
+          <form action="/" class="input">
+            <input type="search" class="sign-form__field" name="Search" placeholder="Search" required />
+          </form>
+        </div>
+
+        <h3 class="form5__title">Latest Post</h3>
+
+        <div class="card mb-3" style="max-width: 300px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../img/image/blog_1.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="">
+                <h5 class="form5__info"> <a href="" class="form5__info_link">We Start Selling Word
+                    Press Themes Soon</a></h5>
+                <small class="form5__smallText">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3" style="max-width: 300px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../img/image/blog_2.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="">
+                <h5 class="form5__info"> <a href="" class="form5__info_link">We Start Selling Word
+                    Press Themes Soon</a></h5>
+                <small class="form5__smallText">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3" style="max-width: 300px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../img/image/blog_3.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="">
+                <h5 class="form5__info"> <a href="" class="form5__info_link">We Start Selling Word
+                    Press Themes Soon</a></h5>
+                <small class="form5__smallText">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3" style="max-width: 300px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../img/image/blog_4.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="">
+                <h5 class="form5__info"> <a href="" class="form5__info_link">We Start Selling Word
+                    Press Themes Soon</a></h5>
+                <small class="form5__smallText">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3" style="max-width: 300px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../img/image/blog_5.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="">
+                <h5 class="form5__info"> <a href="" class="form5__info_link">We Start Selling Word
+                    Press Themes Soon</a></h5>
+                <small class="form5__smallText">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3" style="max-width: 300px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../img/image/blog_6.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="">
+                <h5 class="form5__info"> <a href="" class="form5__info_link">We Start Selling Word
+                    Press Themes Soon</a></h5>
+                <small class="form5__smallText">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__column">
+          <h5 class="footer__title">Newsletter</h5>
+          <form action="/" class="input">
+            <input type="search" class="sign-form__field" name="email" placeholder="email" required />
+          </form>
+          <a href="#" cla class="btn active btn-sub" role="button" data-bs-toggle="button"
+            aria-pressed="true">Subscribe</a>
+        </div>
+      </div>
+
+      <div class="form6">
+        <h1 class="form6__title">Super App for New Devices made by touches of new tech</h1>
+        <img src="../img/image/blog770.png" alt="blog">
+        <p class="form6__text"> He Memphis Design movement is one of unlikeliest success stories in the history of
+          design. Like so many artistic reactions, it began as an outlet for its creators, a way to rail against and
+          confound elite sensibilities. The result was a style that was revolutionary in its time and whose spirit is a
+          continual source of inspiration to this day.
+          <br><br>
+          As popular and influential as Memphis Design has been over the years, it can sometimes get a bad rap. It is a
+          loud, colorful style that is hard to separate from its era. And when implemented without care, it can make
+          some design projects feel antiquated. On the other hand, a good designer can turn these sins into virtues:
+          obnoxious retro becoming lively nostalgia.
+          <br><br>
+          Memphis Design is a 1980s design aesthetic characterized by scattered, brightly colored shapes and lines. It
+          typically combines circles and triangles with black-and-white graphic patterns such as polka dots and squiggly
+          lines.
+        </p>
+        <img src="../img/image/blog770_2.png" alt="blog">
+        <p class="form6__text">Imagine you’re at a party, and you’re bored. You’ve been bored for a while—years, it feels like. You wonder
+          how a party, something that is supposed to be fun, can feel like it’s draining the life out of your very soul.
+          As you look around the yawning faces of the guests, you realize it’s going to take drastic measures to salvage
+          any excitement out of this long night. So you sneak a desperate gulp of your drink, slip on your tinted
+          sunglasses and leap atop of the sofa. You’ve sacrificed yourself to karaoke.</p>
+        <div class="form6__blog-footer">
+          <p class="form6__text"><img src="../img/image/blog 400px.png" alt="">Long before all this, there had been a number of fine art and design movements that
+            precipitated Memphis Design, and these were likely on the guests’ minds as they traced where it all had gone
+            wrong.
+            Kadinsky composition On White
+            Kadinsky’s work also likely inspired the Memphis design movement.</p>
+          <p class="form6__text"> <img src="../img/image/blog_400px.png" alt="">Long before all this, there had been a number of fine art and design movements that
+            precipitated Memphis Design, and these were likely on the guests’ minds as they traced where it all had gone
+            wrong.
+            Kadinsky composition On White
+            Kadinsky’s work also likely inspired the Memphis design movement.</p>
+        </div>
+
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+    </section>
 
   </main>
 
-  <footer>
-
+  <footer class="footer">
+    <div class="footer__bg-dark">
+      <div class="container footer__container">
+        <div class="footer__column">
+          <a href="../index.html" class="logo footer__logo">
+            <img src="../img/favicon/Logo.png" alt="" />
+          </a>
+            <ul class="social">
+              <li class="social__item">
+                <a class="social__item_socialfb_White" href="https://ru-ru.facebook.com/" target="_blank"></a>
+              </li>
+              <li class="social__item">
+                <a class="social__item_social-tw_White" href="https://twitter.com/" target="_blank"></a>
+              </li>
+              <li class="social__item">
+                <a class="social__item_social-you_White" href="https://www.youtube.com/" target="_blank"></a>
+              </li>
+              <li class="social__item">
+                <a class="social__item_social-inst_White" href="https://www.instagram.com/" target="_blank"></a>
+              </li>
+            </ul>
+         
+        </div>
+        <nav class="footer__column">
+          <h5 class="footer__title">Services</h5>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="about_us.html" class="footer__link">Incider Responder</a>
+            </li>
+            <li class="footer__item">
+              <a href="courses.html" class="footer__link">Secure Managed IT</a>
+            </li>
+            <li class="footer__item">
+              <a href="events.html" class="footer__link">Check Website Url</a>
+            </li>
+            <li class="footer__item">
+              <a href="blog.html" class="footer__link">Locker Security</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="footer__column">
+          <h5 class="footer__title">Useful Links</h5>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="../index.html#about_us" class="footer__link">About Us</a>
+            </li>
+            <li class="footer__item">
+              <a href="../index.html#FAQ" class="footer__link">FAQ Pages</a>
+            </li>
+            <li class="footer__item">
+              <a href="./contacts.html" class="footer__link">Contact Us</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Blog</a>
+            </li>
+          </ul>
+        </nav>
+       
+        <div class="footer__column">
+          <h5 class="footer__title">Newsletter</h5>
+          <form action="/" class="sign-form">
+            <input type="email" class="sign-form__field" name="email" placeholder="Email address" required />
+          </form>
+          <p class="sign-form__text">
+            *Subscribe to our newsletter to receive communications.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-bottom__container">
+        <p>
+          &copy; 2021 Appolly. | All Rights Reserved. Designed by jstemplate.net 
+        </p>
+        <a href="#header" class="link">Go to top</a>
+      </div>
+    </div>
   </footer>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 
   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   <script type="module" src="./js/swiper.js"></script>
 
 </body>
+
+</html>

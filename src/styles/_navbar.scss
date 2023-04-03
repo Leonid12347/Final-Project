@@ -38,3 +38,46 @@
     }
   }
 }
+
+.navigation {
+  height: 150px;
+
+  text-align: center;
+
+  &__title {
+    font-size: $font-48;  
+    color: $Secondary-White;
+  }
+
+  &__blog {
+    margin: 0 auto;
+    margin-top: $m-2;
+
+    font-size: $font-32;
+    font-weight: 600;
+    color: $Secondary-White;
+
+    padding: $p-0-5;
+
+    :hover {
+      text-decoration: none;
+      color: $Secondary-White;
+    }
+
+    &_pages {
+      @include transition;
+
+      padding: 0 $p-1;
+      color: $Secondary-White;
+      font-weight: 300;
+
+      &:hover {
+        text-decoration: none;
+
+        color: $Primary-Orange;
+      }
+      
+    }
+  }
+}
+

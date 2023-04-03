@@ -1,0 +1,127 @@
+.footer__bg-dark {
+  background-color: $Secondary-Black;
+
+  margin-top: $m-2;
+}
+
+.footer__container {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  display: flex;
+
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  color: $Secondary-White;
+}
+
+.footer__column:first-child {
+  width: 279px;
+}
+
+.footer__text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  opacity: 0.6;
+  margin-top: 24px;
+  margin-bottom: 38px;
+}
+
+.footer__title {
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 21px;
+}
+
+.footer__link {
+  display: block;
+  font-weight: 400;
+  font-size: 1rem;
+  opacity: 0.6;
+  margin-bottom: 16px;
+
+  color: $Secondary-White;
+
+  &:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+
+    text-decoration: none;
+    color: $Primary-Orange;
+  }
+
+  :active {
+    font-weight: 900;
+  }
+}
+
+.footer__column:last-child {
+  width: 286px;
+}
+
+.sign-form {
+  width: 286px;
+  margin-top: 32px;
+  margin-bottom: 10px;
+}
+
+.sign-form__field {
+  width: 100%;
+  height: 36px;
+  padding-left: 12px;
+
+  background: rgba(255, 255, 255, 0.12);
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+
+  font-weight: 400;
+  font-size: 12px;
+  color: $Secondary-White;
+
+  background-image: url("../img/image/arrow.png");
+  background-repeat: no-repeat;
+  background-position: 96% 41%;
+}
+
+.sign-form__text {
+  font-weight: 400;
+  font-size: $font-10;
+  line-height: 150%;
+  opacity: 0.6;
+}
+
+.footer-bottom {
+  background-color: $Primary-Orange;
+  color: $Secondary-White;
+}
+
+.footer-bottom__container {
+  margin: 0 $m-1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.footer-bottom__container p {
+  font-weight: 400;
+  font-size: 12px;
+  color: $Secondary-White;
+  opacity: 0.6;
+}
+
+.footer-bottom__container a {
+  font-weight: 700;
+  text-decoration: none;
+
+  text-transform: uppercase;
+  color: $Secondary-White;
+  opacity: 0.6;
+}
+

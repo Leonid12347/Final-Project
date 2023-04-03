@@ -92,6 +92,135 @@
       }
     }
   }
+}
 
+.form3 {
+  width: 400px;
 
+  &__title {
+    font-size: $font-20;
+    font-weight: 600;
+
+    color: $Secondary-White;
+
+    padding-top: $p-3;
+  }
+
+  &__commends {
+    font-size: $font-14;
+    font-weight: 500;
+
+    color: $Secondary-White;
+
+    padding: $p-1;
+
+    border-bottom: 1px solid $Secondary-White;
+  }
+
+  &__names {
+    font-size: $font-16;
+    font-weight: 400;
+
+    padding-top: $p-1;
+    
+    color: $Secondary-White;
+  }
+
+  &__significance {
+    font-size: $font-10;
+    font-weight: 200;
+
+    color: $Secondary-White_Dark;
+
+    padding: $p-0-5;
+  }
+}
+
+.form4 {
+  display: flex;
+  justify-content: space-around;
+
+  margin-top: $m-2;
+  
+  &__post {
+
+    &_title{
+      font-size: $font-18;
+      font-weight: 600;
+
+      text-align: left;
+    }
+
+    &_info {
+      font-size: $font-14;
+      font-weight: 400;
+
+      padding: $p-1 0;
+      color: $Secondary-Black;
+
+      border-bottom: 1px solid $Secondary-White_Dark;
+    }
+  }
+}
+
+.form5 {
+  max-width: 305px;
+  
+  margin: $m-1;
+
+  &__title {
+    font-size: $font-20;
+    font-weight: 600;
+    
+    margin: $m-2 0 ;
+  }
+
+  &__info {
+    font-size: $font-14;
+    font-weight: 600;
+
+    &_link {
+      color: $Secondary-Black;
+
+      &:hover {
+        text-decoration: none;
+
+        color: $Primary-Orange;
+      }
+    }
+  }
+
+  &__smallText {
+    font-size: $font-10;
+    opacity: .5;
+  }
+}
+
+.form6 {
+  max-width: 770px;
+  padding-top: $p-1-5;
+
+  margin-left: $m-2;
+
+  &__title {
+    text-align: left;
+
+    font-size: $font-32;
+    font-weight: 600;
+
+    margin-bottom: $m-2; 
+  }
+
+  &__text {
+    font-size: $font-16;
+    font-weight: 300;
+    padding: $p-1 0;
+
+    opacity: 0.9;
+
+  }
+
+  &__blog-footer {
+    display: flex;
+  }
 }

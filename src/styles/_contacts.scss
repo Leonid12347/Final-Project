@@ -78,3 +78,221 @@
     }
   }
 }
+
+.social {
+  display: flex;
+
+  &__item{
+    
+    &_socialfb_White{
+      display: block;
+      width: 50px;
+      height: 50px;
+  
+      margin-top: $m-2;
+      margin-right: $m-0-5;
+  
+      background-image: url("../img/image/icons8-facebook-24.png");
+      background-repeat: no-repeat;
+      background-position: 60% 15%;
+
+      &:hover {
+        background-image: url("../img/image/icons8-facebook-48.png");
+        background-position: 60% -30%;
+      }
+    }
+
+    &_social-tw_White{
+      display: block;
+      width: 50px;
+      height: 50px;
+  
+      margin-top: $m-2;
+      margin-right: $m-0-5;
+  
+      background-image: url("../img/image/icons8-twitter-24.png");
+      background-repeat: no-repeat;
+      background-position: 60% 15%;
+
+      &:hover {
+        background-image: url("../img/image/icons8-twitter-48.png");
+        background-position: 60% -30%;
+      }
+      
+    }
+    &_social-you_White{
+      display: block;
+      width: 50px;
+      height: 50px;
+  
+      margin-top: $m-2;
+      margin-right: $m-0-5;
+
+  
+      background-image: url("../img/image/icons8-youtube-24.png");
+      background-repeat: no-repeat;
+      background-position: 60% 15%;
+
+      &:hover {
+        background-image: url("../img/image/icons8-youtube-48.png");
+        background-position: 60% -30%;
+      }
+      
+    }
+    &_social-inst_White{
+      display: block;
+      width: 50px;
+      height: 50px;
+
+      margin-top: $m-2;
+      margin-right: $m-0-5;
+
+
+      background-image: url("../img/image/icons8-instagram-24.png");
+      background-repeat: no-repeat;
+      background-position: 60% 15%;
+
+      &:hover {
+        background-image: url("../img/image/icons8-instagram-48.png");
+        background-position: 60% -30%;
+      }
+    }
+  }
+}
+
+.questions__container {
+  position: relative;
+  top: 50px;
+
+  padding-bottom: 200px ;
+  margin: 0 auto;
+}
+
+.questions {
+  background-color: $Secondary-White;
+
+  &__form {
+    max-width: 700px;
+  }
+
+  &__form input,
+  textarea {
+  font-weight: 400;
+  font-size: 1rem;
+
+  width: 100%;
+
+  padding: 13px 0 15px 16px;
+  border: 1px solid $Secondary-Dark;
+  border-radius: 4px;
+
+  background: $Secondary-White_Gray;
+  }
+
+  &__before-header {  
+    font-size: $font-16;
+    font-weight: 600;
+    
+    color: $swiper-bth_check;
+    text-align: center;
+
+    padding: $p-1;
+  }
+
+  &__title {
+    font-size: $font-28;
+    font-weight: 600;
+
+    text-align: center;
+    max-width: 400px;
+
+    margin: $m-1 auto;
+  }
+
+  &__form-name,
+  &__form-mail,
+  &__form-agree{
+    display: flex;
+
+    margin: $m-1 0;
+  }
+}
+
+.item-fname,
+.item-email {
+  margin-right: 25px;
+}
+
+.item-fname,
+.item-lname,
+.item-email,
+.item-phone,
+.item-agree,
+.questions__btn {
+  flex-basis: 50%;
+}
+
+textarea {
+  height: 128px;
+
+  opacity: 0.7;
+}
+
+.label-checkbox {
+  display: flex;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+}
+
+.input-checkbox {
+  position: relative;
+  left: 75px;
+  top: 23px;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact {
+  width: 300px;
+  
+  margin-top: $m-2;
+  padding-left: $p-2;
+
+  &__item {
+    border-left: 5px solid $Primary-Orange;
+  
+    &:nth-child(2) {
+      margin-top: $m-4;
+    }
+
+    &:nth-child(3) {
+      margin-top: $m-4;
+    }
+
+    &_title {
+      font-size: $font-28;
+      font-weight: 500;
+    }
+
+    &_link {
+      @include transition;
+
+      position: relative;
+      top: 17px;
+      left: 24px;
+      font-size: $font-20;
+
+      color: $Secondary-Dark;
+
+      &:hover {
+        text-decoration: none;
+        color: $Primary-Royal;
+      }
+    }
+  }
+}
+
