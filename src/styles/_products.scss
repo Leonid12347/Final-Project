@@ -50,6 +50,11 @@
     background-position: 100% 50%;
     
     text-align: right;
+
+    @media screen and (max-width: 992px) {
+      position: relative;
+      right: 40px;
+    }
   }
 
   &__left2{
@@ -58,6 +63,11 @@
     background-position: 100% 50%;
 
     text-align: right;
+
+    @media screen and (max-width: 992px) {
+      position: relative;
+      right: 40px;
+    }
   }
 
   &__left3{
@@ -66,6 +76,11 @@
     background-position: 100% 50%;
 
     text-align: right;
+
+    @media screen and (max-width: 992px) {
+      position: relative;
+      right: 40px;
+    }
   }
 
   &__right1{
@@ -74,6 +89,11 @@
     background-position: 5% 50%;
 
     text-align: left;
+
+    @media screen and (max-width: 992px) {
+      position: relative;
+      left: 20px;
+    }
   }
 
   &__right2{
@@ -82,6 +102,11 @@
     background-position: 5% 50%;
 
     text-align: left;
+
+    @media screen and (max-width: 992px) {
+      position: relative;
+      left: 20px;
+    }
   }
 
   &__right3 {
@@ -90,5 +115,10 @@
     background-position: 5% 50%;
 
     text-align: left;
+
+    @media screen and (max-width: 992px) {
+      position: relative;
+      left: 20px;
+    }
   }
 }

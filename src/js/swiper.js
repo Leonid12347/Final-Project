@@ -5,27 +5,23 @@ var swiper = new Swiper(".mySwiper", {
   loop: false,
   loopFillGroupWithBlank: true,
   breakpoints: {
-      1000: {
+      1200: {
           slidesPerView: 3,
           spaceBetween: 20,
       },
 
+      992: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+      },
       768: {
-          slidesPerView: 2.2,
+          slidesPerView: 2,
           spaceBetween: 20,
       },
-      484: {
-          slidesPerView: 1.5,
+      576: {
+          slidesPerView: 2,
           spaceBetween: 20,
-      },
-      280: {
-          slidesPerView: 1.2,
-          spaceBetween: 20,
-      },
-      100: {
-          slidesPerView: 1,
-          spaceBetween: 10,
-      },
+      }
   },
 
   navigation: {
@@ -50,27 +46,28 @@ var swiper = new Swiper(".mySwiper2", {
     loop: false,
     loopFillGroupWithBlank: true,
     breakpoints: {
-        1000: {
+        1200: {
             slidesPerView: 1,
             spaceBetween: 20,
         },
 
+        992: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+        },
         768: {
-            slidesPerView: 1.5,
+            slidesPerView: 1,
             spaceBetween: 20,
         },
-        484: {
-            slidesPerView: 1.5,
+        576: {
+            slidesPerView: 1,
             spaceBetween: 20,
         },
-        280: {
-            slidesPerView: 1.2,
-            spaceBetween: 20,
-        },
+
         100: {
             slidesPerView: 1,
-            spaceBetween: 10,
-        },
+            spaceBetween: 20,
+        }
     },
 
     navigation: {

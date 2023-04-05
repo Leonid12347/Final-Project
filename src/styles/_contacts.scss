@@ -173,6 +173,10 @@
 
   &__form {
     max-width: 700px;
+
+    @media screen and (max-width: 992px) {
+      max-width: 100%;
+    }
   }
 
   &__form input,
@@ -254,6 +258,12 @@ textarea {
 .contact-form {
   display: flex;
   justify-content: space-around;
+
+
+  @media screen and (max-width: 992px) {
+    flex-flow: column;
+    justify-content: center;
+  }
 }
 
 .contact {

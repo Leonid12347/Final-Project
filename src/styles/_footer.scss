@@ -10,13 +10,21 @@
   display: flex;
 
   justify-content: space-between;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
   color: $Secondary-White;
+
+  @media screen and (max-width: 992px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+  }
 }
 
 .footer__column:first-child {
   width: 279px;
+}
+
+.footer__column {
+  padding: 1rem;
 }
 
 .footer__text {

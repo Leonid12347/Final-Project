@@ -25,8 +25,31 @@
 
 </head>
 <body>
-
   <header class="header" id="header">
+
+    <div class="collapse" id="navbarToggleExternalContent">
+      <ul class="navbar-lists bg-dark">
+        <li class="navbar-lists__list"><a href="/src/index.html" class="navbar-lists__list_link">Home</a></li>
+        <li class="navbar-lists__list"><a href="/src/index.html#Features" class="navbar-lists__list_link">Features</a>
+        </li>
+        <li class="navbar-lists__list"><a href="/src/index.html#screenshot" class="navbar-lists__list_link">Screenshot</a>
+        </li>
+  
+        <li class="navbar-lists__list"><a href="../index.html#price" class="navbar-lists__list_link">Price</a></li>
+        <li class="navbar-lists__list"><a href="/src/pages/blog.html" class="navbar-lists__list_link">Blog</a></li>
+        <li class="navbar-lists__list"><a href="/src/pages/contacts.html" class="navbar-lists__list_link">Contact</a></li>
+      </ul>
+    </navbar>
+    </div>
+
+    <nav class="navbar-dark test-navbar">
+      <div class="test-navbar">
+        <button class="navbar-toggler footer__bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon bg-dark"></span>
+        </button>
+      </div>
+    </nav>
+
     <div class="navbar">
       <ul class="navbar-lists">
         <li class="navbar-lists__list"><a href="#" class="navbar-lists__list_link">Home</a></li>
@@ -52,7 +75,9 @@
       <div class="first">
         <div class="first__left">
           <h1 class="first__left_title">
-            Great Way To Get Banking Services Easily
+            Great Way To Get Banking
+            <br>
+             Services Easily
           </h1>
 
           <div class="first__left_product">
@@ -65,16 +90,13 @@
             </h3>
           </div>
         </div>
-
-        <div class="first__right">
-          <img src="./img/image/Mockup 1.png" alt="Mockup phone">
-        </div>
+          <img src="./img/image/Mockup 1.png" class="first__right_img" alt="Mockup phone">
       </div>
     </section>
   </header>
 
   <main>
-    <section class="container firms">
+    <section class="firms">
       <img src="./img/image/Airbnb.png" alt="Airbnb">
       <img src="./img/image/Google.png" alt="Google">
       <img src="./img/image/Microsoft.png" alt="Microsoft">
@@ -178,12 +200,12 @@
         </ul>
 
         <div class="form2__features_image">
-          <img src="./img/image/iphone 12 pro in hand free mockup 1.png" alt="hand free mockup 1">
+          <img class="form2__features_image-phone" src="./img/image/iphone 12 pro in hand free mockup 1.png" alt="hand free mockup 1">
         </div>
 
         <ul class="form2__features_items function">
-          <li class="form2__features_items-item function__right1">Iso & androind version</li>
           <li class="form2__features_items-item function__right2">Unlimiter features</li>
+          <li class="form2__features_items-item function__right1">Iso & androind version</li>
           <li class="form2__features_items-item function__right3">Full free chat</li>
         </ul>
       </div>
@@ -231,8 +253,8 @@
           In Our Pricing
         </h1>
 
-        <div class="card-group">
-          <div class="card">
+        <div class="card-group1">
+          <div class="card-product">
             <div class="card-body">
               <h5 class="card-title">30$ <small class="card-title__price">/month</small></h5>
               <h5 class="primary">Primary Plan</h5>
@@ -244,7 +266,7 @@
               <a href="#" class="btn btn-primary">Get startet</a>
             </div>
           </div>
-          <div class="card">
+          <div class="card-product">
             <div class="card-body">
               <h5 class="card-title">80$ <small class="card-title__price">/month</small></h5>
               <h5 class="primary">Popular Plan</h5>
@@ -256,7 +278,7 @@
               <a href="#" class="btn btn-primary">Get startet</a>
             </div>
           </div>
-          <div class="card">
+          <div class="card-product">
             <div class="card-body">
               <h5 class="card-title">100$ <small class="card-title__price">/month</small></h5>
               <h5 class="primary">Professional Plan</h5>
@@ -290,7 +312,7 @@
                   <img src="./img/image/team_4.png" class="card-img-top" alt="team_4">
                   <div class="card-body">
                     <h5 class="card-team">Carla Press</h5>
-                    <p>App Developer</p>
+                    <p class="card-info">App Developer</p>
                     <ul class="social">
                       <li class="social__item">
                         <a class="social__item_socialfb" href="#" target="_blank"></a>
@@ -313,7 +335,7 @@
                   <img src="./img/image/team_2.png" class="card-img-top" alt="team_2">
                   <div class="card-body">
                     <h5 class="card-team">Craig Gouse</h5>
-                    <p>UI/UX Designer</p>
+                    <p class="card-info">UI/UX Designer</p>
                     <ul class="social">
                       <li class="social__item">
                         <a class="social__item_socialfb" href="#" target="_blank"></a>
@@ -336,7 +358,7 @@
                   <img src="./img/image/team_3.png" class="card-img-top" alt="team_3">
                   <div class="card-body">
                     <h5 class="card-team">Jocelyn Septimus</h5>
-                    <p>Website developer</p>
+                    <p class="card-info">Website developer</p>
                     <ul class="social">
                       <li class="social__item">
                         <a class="social__item_socialfb" href="#" target="_blank"></a>
@@ -359,7 +381,7 @@
                   <img src="./img/image/team_1.png" class="card-img-top" alt="team_1">
                   <div class="card-body">
                     <h5 class="card-team">Wade Warren</h5>
-                    <p>UI/UX Designer</p>
+                    <p class="card-info">UI/UX Designer</p>
                     <ul class="social">
                       <li class="social__item">
                         <a class="social__item_socialfb" href="#" target="_blank"></a>
@@ -567,9 +589,9 @@
 
       <div class="form4">
         <div class="card form4__post" style="width: 18rem;">
-          <img src="./img/image/post_6.png" class="card-img-top" alt="pot_6">
-          <div class="card-body form4">
-            <h5 class="form4__post_title">Make your successful business with sApp</h5>
+          <img src="./img/image/post_6.png" class="card-img-top" alt="post_4">
+          <div class="card-body">
+            <h5 class="form4__post_title">Grow up your business success fully</h5>
             <p class="form4__post_info">Some quick example text to build on the card title and make up the bulk of the
               card's content.</p>
             <div class="d-flex justify-content-between">
@@ -599,6 +621,7 @@
             </div>
           </div>
         </div>
+        
         <div class="card form4__post" style="width: 18rem;">
           <img src="./img/image/post_5.png" class="card-img-top" alt="post_5">
           <div class="card-body">
@@ -707,6 +730,17 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+
+  <script async src="https://cdn.jsdelivr.net/npm/es-module-shims@1/dist/es-module-shims.min.js" crossorigin="anonymous"></script>
+  <script type="importmap">
+    {
+      "imports": {
+        "@popperjs/core": "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/esm/popper.min.js",
+        "bootstrap": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.esm.min.js"
+      }
+    }
+  </script>
+  <script type="module" src="./js/bootstrap.js"></script>
 
   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   <script type="module" src="./js/swiper.js"></script>

@@ -5,14 +5,23 @@ header {
 }
 
 .first {
+  @media screen and (max-width: 1200px) {
+    display: flex;
+    flex-flow: column;
+  }
   display: flex;
-  
+
   &__left {
     margin-top: $m-6;
     padding-bottom: $p-2;
 
+    @media screen and (max-width: 1200px) {
+      display: grid;
+      justify-content: center;
+    }
+
     &_title {
-      font-size: $font-70;
+      font-size: $font-48;
 
       color: $Secondary-White;
     }
@@ -58,6 +67,12 @@ header {
   }
 
   &__right {
-    max-width: 50%;
+
+    @media screen and (max-width: 1200px) {
+    }
+
+    @media screen and (max-width: 1200px) {
+      margin: 0 auto;
+    }
   }
 }

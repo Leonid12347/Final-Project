@@ -1,7 +1,11 @@
 .navbar {
+  @media screen and (max-width: 992px) {
+    display: none;
+  }
 
   &-lists {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 
     &__list {
@@ -78,6 +82,20 @@
       }
       
     }
+  }
+}
+
+.test-navbar {
+
+  position: relative;
+  bottom: 14px;
+  float: right;
+
+  padding: $p-0-5 $p-1;
+
+  @media screen and (min-width: 993px) {
+    display: none;
+    clear:both;
   }
 }
 
