@@ -24,11 +24,16 @@ header {
       font-size: $font-48;
 
       color: $Secondary-White;
+
+      text-align: center;
     }
 
     &_product {
       display: flex;
+      flex-wrap: wrap;
       padding-top: $p-2;
+
+      justify-content: center;
 
       &-probe {
         @include transition;

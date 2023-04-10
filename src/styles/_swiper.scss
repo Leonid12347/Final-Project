@@ -11,6 +11,11 @@
 .swiper {
   width: 655px;
   height: 50%;
+
+  @media screen and (max-width: 768px) {
+    width: 200px;
+  }
+
 }
 
 .swiper-slide {
@@ -73,5 +78,11 @@
 
 .swiper-button-next2 {
   right: calc(50% - 245px);
+}
+
+.swiper-media img {
+  @media screen and (max-width: 992px) {
+    max-width: 200px;
+  }
 }
 

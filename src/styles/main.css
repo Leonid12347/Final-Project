@@ -55,6 +55,8 @@ input {
   max-width: 1280px;
   padding: 0 15px;
   margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .container__first {
   display: flex;
@@ -64,6 +66,14 @@ input {
   max-width: 1400px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+iframe {
+  display: block;
+  width: 90%;
+  height: 400px;
+  margin: 2rem auto;
+  border: 1px solid rgb(39, 39, 46);
 }
 
 .video-bth {
@@ -116,6 +126,24 @@ input {
   background-color: rgb(253, 110, 94);
 }
 
+.btn-keyframes {
+  animation: element-animation 2s ease-in-out infinite 2s forwards;
+}
+
+@keyframes element-animation {
+  0%, 100% {
+    transform: 0;
+  }
+  5%, 15%, 25%, 35% {
+    transform: rotate(-5deg);
+  }
+  10%, 20%, 30% {
+    transform: rotate(5deg);
+  }
+  40% {
+    transform: rotate(0deg);
+  }
+}
 .swiper-custom {
   margin-top: 5%;
   position: relative;
@@ -129,6 +157,11 @@ input {
 .swiper {
   width: 655px;
   height: 50%;
+}
+@media screen and (max-width: 768px) {
+  .swiper {
+    width: 200px;
+  }
 }
 
 .swiper-slide {
@@ -196,6 +229,12 @@ input {
   right: calc(50% - 245px);
 }
 
+@media screen and (max-width: 992px) {
+  .swiper-media img {
+    max-width: 200px;
+  }
+}
+
 .form {
   display: flex;
 }
@@ -208,7 +247,14 @@ input {
   display: flex;
   justify-content: center;
   border-style: none;
-  padding-top: 6rem;
+  padding-top: 2rem;
+}
+@media screen and (max-width: 768px) {
+  .form__img img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+  }
 }
 .form__inform {
   flex: 0 0 36%;
@@ -272,6 +318,12 @@ input {
     display: grid;
     grid-template-columns: repeat(2, [col] 2fr);
     grid-template-rows: repeat(2, [row] 0fr);
+  }
+}
+@media screen and (max-width: 576px) {
+  .form2__features {
+    display: flex;
+    flex-flow: column;
   }
 }
 @media screen and (max-width: 992px) {
@@ -393,6 +445,9 @@ input {
   padding: 1rem 0;
   opacity: 0.9;
 }
+.form6__text img {
+  max-width: 400px;
+}
 .form6__blog-footer {
   display: flex;
 }
@@ -438,6 +493,11 @@ input {
   font-size: 20px;
   font-weight: 600;
   padding: 1rem 0;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
 }
 
 .card-info {
@@ -846,6 +906,14 @@ input {
   display: flex;
   margin: 1rem 0;
 }
+@media screen and (max-width: 768px) {
+  .questions__form-agree {
+    display: flex;
+    flex-flow: column;
+    max-width: 300px;
+    margin: 1rem auto;
+  }
+}
 
 .item-fname,
 .item-email {
@@ -859,6 +927,12 @@ input {
 .item-agree,
 .questions__btn {
   flex-basis: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .questions__btn {
+    padding: 1rem 0;
+  }
 }
 
 textarea {
@@ -948,10 +1022,13 @@ header {
 .first__left_title {
   font-size: 48px;
   color: rgb(255, 255, 255);
+  text-align: center;
 }
 .first__left_product {
   display: flex;
+  flex-wrap: wrap;
   padding-top: 2rem;
+  justify-content: center;
 }
 .first__left_product-probe {
   transition: all 0.3s;
@@ -1023,9 +1100,9 @@ header {
 }
 .section1__lists_list {
   display: inline-block;
-  width: 360px;
-  height: 115px;
+  max-width: 360px;
   margin: 1rem;
+  padding: 1rem 0.5rem;
   text-align: end;
   vertical-align: bottom;
   border-radius: 5px;
@@ -1058,6 +1135,7 @@ header {
   padding-left: 5rem;
   font-size: 16px;
   font-weight: 500;
+  color: rgb(255, 255, 255);
 }
 .section1__listsFooter {
   max-width: 950px;
@@ -1070,9 +1148,9 @@ header {
 }
 .section1__listsFooter_list {
   display: inline-block;
-  width: 440px;
-  height: 115px;
+  max-width: 440px;
   margin: 1rem;
+  padding: 0.5rem;
   background-color: rgb(255, 255, 255);
   text-align: end;
   vertical-align: bottom;

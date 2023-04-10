@@ -220,6 +220,16 @@
 
     margin: $m-1 0;
   }
+  
+  &__form-agree {
+    @media screen and (max-width: 768px){
+      display: flex;
+      flex-flow: column;
+
+      max-width: 300px;
+      margin: $m-1 auto;
+    }
+  }
 }
 
 .item-fname,
@@ -234,6 +244,13 @@
 .item-agree,
 .questions__btn {
   flex-basis: 50%;
+}
+
+.questions__btn {
+  @media screen and (max-width: 768px){
+    padding: $p-1 0;
+  }
+
 }
 
 textarea {

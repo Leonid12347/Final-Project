@@ -18,6 +18,11 @@
   padding: $p-1 0;
 }
 
+.social {
+  display: flex;
+  justify-content: center;
+}
+
 .card-info{
   font-size: $font-16;
   font-weight: 200;
